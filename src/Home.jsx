@@ -8,7 +8,7 @@ import CategoryData from "./homepage/Categories"
 import Popularmembership from "./homepage/Popularmembership"
 import Howitworks from "./homepage/Howitworks"
 import Slidercompo from './homepage/Slider'
-import Subscribecompo from './homepage/subscribe'
+import Subscribecompo from './homepage/Subscribecompo'
 const Home = () => {
     return (
         <div className="my-10 ">
