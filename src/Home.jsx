@@ -6,9 +6,9 @@ import ProductSlider from "./homepage/ProductSlider"
 import Dealsoftheday from "./homepage/Dealsoftheday"
 import CategoryData from "./homepage/Categories"
 import Popularmembership from "./homepage/Popularmembership"
-import Subscribe from "./homepage/subscribe"
 import Howitworks from "./homepage/Howitworks"
 import Slidercompo from './homepage/Slider'
+import Subscribecompo from './homepage/subscribe'
 const Home = () => {
     return (
         <div className="my-10 ">
@@ -78,7 +78,7 @@ const Home = () => {
             </div>
 
             <div>
-                <Subscribe />
+                <Subscribecompo />
             </div>
 
             <div>

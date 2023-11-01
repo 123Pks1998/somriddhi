@@ -1,5 +1,5 @@
 
-const Subscribe = () => {
+const Subscribecompo = () => {
     return (
         <div>
             <section className="text-gray-600 w-10/12  mx-20 rounded-2xl  bg-white p-2  body-font overflow-hidden">
@@ -22,4 +22,4 @@ const Subscribe = () => {
     )
 }
 
-export default Subscribe
+export default Subscribecompo
