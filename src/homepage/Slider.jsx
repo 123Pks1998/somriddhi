@@ -23,7 +23,7 @@ const responsive = {
 };
 
 
-const Slider = () => {
+const Slidercompo = () => {
     return (
         <Carousel infinite={true} showDots={true} arrows={true} responsive={responsive}>
             {SliderData.map((item) => {
@@ -41,4 +41,4 @@ const Slider = () => {
     )
 }
 
-export default Slider
+export default Slidercompo

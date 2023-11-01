@@ -1,4 +1,4 @@
-import Slider from "./homepage/slider"
+
 import { BiAlarm } from 'react-icons/bi'
 import { AiOutlineFire } from 'react-icons/ai'
 import { RiTrophyLine } from 'react-icons/ri'
@@ -8,12 +8,13 @@ import CategoryData from "./homepage/Categories"
 import Popularmembership from "./homepage/Popularmembership"
 import Subscribe from "./homepage/subscribe"
 import Howitworks from "./homepage/Howitworks"
+import Slidercompo from './homepage/Slider'
 const Home = () => {
     return (
         <div className="my-10 ">
 
             <div className="md:mx-auto mx-auto w-3/4 justify-center rounded-3xl">
-                <Slider />
+                <Slidercompo />
             </div>
 
             <div className="my-8">
